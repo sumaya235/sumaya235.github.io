@@ -1,0 +1,139 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body
+{
+	background: #efefef;
+	font-family: sans-serif;
+}
+
+.profile-img 
+{
+	
+	width: 40%;
+	float: right;
+}
+.profile-img img
+{
+	width: 85%;
+	height: 85%;
+}
+.profile-info
+{
+	width: 60%;
+	height: 100vh;
+	float: left;
+	padding: 10px 30px;
+	overflow: scroll;
+	overflow-x: hidden;
+
+
+
+}
+
+.profile-add
+{
+	width: 60%;
+	height: 100vh;
+	float: left;
+	padding: 0px 0px;
+	overflow: scroll;
+	overflow-x: hidden;
+	color:black;
+
+
+}
+.profile-info::-webkit-scrollbar
+{
+	width: 0px;
+}
+.profile-add::-webkit-scrollbar
+{
+	width:0px;
+}
+
+.social-media
+{
+	margin-top: 40px;
+	margin-left: 15px;
+	
+}
+.profile-info h2
+{
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.education img
+{
+	height: 80px;
+	margin: 5px;
+}
+
+.education
+{
+	display: inline-block;
+	width: 25%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+
+}
+
+
+.education small
+{
+	padding: 10px;
+	display: block;
+}
+.skill
+{
+	display: inline-block;
+	width: 20%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.skill img
+{
+	height: 60px;
+	margin: 5px;
+}
+.Certificate
+{
+	display: inline-block;
+	width: 20%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.Certificate img
+{
+	height: 60px;
+	margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
